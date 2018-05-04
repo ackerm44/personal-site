@@ -5,9 +5,23 @@ class About extends Component {
     return (
       <div>
         <h1>About</h1>
+
+        <p>Hello! My name is Amanda Ackerman and I am a web developer. </p>
+
+        <p>I have been a few things in the past but one thing was for certain - I
+        always gravitated toward the tech roles in those positions and in particular,
+        creating web sites for the businesses I worked in.</p>
+
+        <p>Then in 2017, I decided it was time to go back to school and learn web
+        development for real. I joined Flatiron School and graduated in March of 2018.
+        </p>
+
+
+
+        <p></p>
       </div>
     )
   }
 }
 
-export default About; 
+export default About;
