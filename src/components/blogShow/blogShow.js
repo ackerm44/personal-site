@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Butter from 'buttercms'
 import './blogShow.css'
+import Moment from 'react-moment';
 // import { Helmet } from "react-helmet";
 
 const butter = Butter('c2ecaf9f0a04614d2fd327f91151ef19ebbb61d6');
@@ -29,7 +30,7 @@ class BlogShow extends Component {
   render() {
     if (this.state.loaded) {
       const post = this.state.post;
-
+      console.log(post.published)
       return (
         <div className="blogContent">
             <title>{post.seo_title}</title>
@@ -37,7 +38,8 @@ class BlogShow extends Component {
             <meta name="og:image" content={post.featured_image} />
 
           <h1>{post.title}</h1>
-          <p>{post.published}</p>
+          <p>by {post.author.first_name} on <Moment>{post.published}</Moment>
+          </p>
           <div dangerouslySetInnerHTML={{__html: post.body}} />
         </div>
       );

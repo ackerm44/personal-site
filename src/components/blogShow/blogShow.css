@@ -1,6 +1,7 @@
 .blogContent {
   margin-left: 35px;
   margin-right: 35px;
+  text-align: left; 
 }
 
 /* .blogContent img {
