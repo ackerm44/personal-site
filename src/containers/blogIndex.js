@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Butter from 'buttercms';
+import BlogPreview from '../components/blogPreview/blogPreview'
 
 const butter = Butter('c2ecaf9f0a04614d2fd327f91151ef19ebbb61d6');
 
@@ -43,11 +44,11 @@ render() {
 
     return (
       <div>
-        <h1>This is BlogIndex</h1>
         {this.state.resp.data.map((post) => {
           return (
+
             <div key={post.slug}>
-              <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+              <BlogPreview data={post} />
             </div>
           )
         })}
