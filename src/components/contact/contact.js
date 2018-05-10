@@ -8,9 +8,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <h1>Get in touch</h1>
-        <a href="mailto:ackerm44@gmail.com" target="_blank"><img src={email} alt="e-mail"/></a>
+        <h1>GET IN TOUCH</h1>
         <a href="https://github.com/ackerm44" target="_blank"><img src={github} alt="github"/></a>
+        <a href="mailto:ackerm44@gmail.com" target="_blank"><img src={email} alt="e-mail"/></a>
         <a href="https://www.linkedin.com/in/ackerm44" target="_blank"><img src={linkedin} alt="linkedIn"/></a>
       </div>
     )

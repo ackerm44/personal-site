@@ -1,11 +1,21 @@
 .navBar {
   padding-right: 20px;
-  padding-bottom: 10px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
   text-align: right;
-  margin-left: 20px;
+  border-top: 1px solid black;
 }
 
 .navBar a {
   padding-right: 30px;
   font-size: 130%;
+    text-align: right;
+}
+
+.navBar a:hover {
+  color: blue; 
 }
