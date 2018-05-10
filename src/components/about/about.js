@@ -11,18 +11,19 @@ class About extends Component {
           <img src={placeholder}/>
           <div >
             <p>Hello! My name is Amanda Ackerman and I am a web developer in
-            Northern Michigan. </p>
+            Northern Michigan. I am also passionate about hiking, perennial gardens,
+            trying new foods, painting and live music. </p>
 
-            <p>I have been a few things in the past but one thing was for certain - I
-            always gravitated toward the tech roles in those positions and in particular,
-            creating web sites for the businesses I worked in.</p>
+            <p>In 2017, I joined Flatiron School for Full Stack Web Development
+            and graduated in March of 2018. </p>
 
-            <p>In 2017, I joined Flatiron School for full stack web development
-            and graduated in March of 2018.
-            </p>
-
-            <h2>Resume</h2>
           </div>
+          <h2>RESUME</h2>
+          <p>SKILLS & KNOWLEDGE: GIT, OOP & FP, AJAX, TESTING, UI DESIGN, AGILE/SCRUM</p>
+          <p>Education</p>
+          <p>Flatiron School </p>
+          <p>Michigan State University</p>
+          <p>Bachelor of Science, Economics</p>
         </div>
       </div>
     )

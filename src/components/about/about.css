@@ -13,5 +13,6 @@
 
 .aboutContent p {
   margin-right: 50px;
-  font-size: 120%; 
+  font-size: 120%;
+  text-align: justify; 
 }
