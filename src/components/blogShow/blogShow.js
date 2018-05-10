@@ -37,6 +37,7 @@ class BlogShow extends Component {
             <meta name="og:image" content={post.featured_image} />
 
           <h1>{post.title}</h1>
+          <p>{post.published}</p>
           <div dangerouslySetInnerHTML={{__html: post.body}} />
         </div>
       );

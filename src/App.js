@@ -8,6 +8,7 @@ import About from './components/about/about';
 import Contact from './components/contact/contact';
 import NavBar from './components/navBar/navBar';
 import Header from './components/header'
+import Footer from './components/footer'
 
 import './App.css';
 
@@ -24,6 +25,7 @@ class App extends Component {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/blog" component={BlogIndex} />
           <Route path="/blog/:slug" component={BlogShow} />
+          <Footer />
         </div>
       </Router>
     );

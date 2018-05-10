@@ -25,7 +25,6 @@ fetchPosts(page) {
 
 componentWillMount() {
   let page = this.props.match.params.page || 1;
-  // let page = 1;
 
   this.fetchPosts(page)
 }
