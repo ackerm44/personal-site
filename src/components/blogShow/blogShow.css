@@ -1,9 +1,10 @@
 .blogContent {
   margin-left: 35px;
   margin-right: 35px;
-  text-align: left; 
+  text-align: left;
 }
 
-/* .blogContent img {
-  width: 80vw;
-} */
+.blogContent pre {
+  background-color: rgb(244, 244, 244);
+  padding: 20px; 
+}

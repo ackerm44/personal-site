@@ -38,8 +38,7 @@ class BlogShow extends Component {
             <meta name="og:image" content={post.featured_image} />
 
           <h1>{post.title}</h1>
-          <p>by {post.author.first_name} on <Moment>{post.published}</Moment>
-          </p>
+          <h5>by {post.author.first_name} on <Moment format="MMMM D, YYYY">{post.published}</Moment></h5>
           <div dangerouslySetInnerHTML={{__html: post.body}} />
         </div>
       );
