@@ -3,7 +3,7 @@ import headerPlaceholder from '../images/header-placeholder.png';
 
 const Header = () => {
   return (
-    <img src={headerPlaceholder} />
+    <img src={headerPlaceholder} style={{width: 100 + '%'}} />
   )
 }
 

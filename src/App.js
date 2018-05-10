@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Portfolio from './containers/portfolio/portfolio';
 import BlogIndex from './containers/blogIndex';
-import BlogShow from './components/blogShow'
+import BlogShow from './components/blogShow/blogShow'
 import Resume from './containers/resume';
 import About from './components/about/about';
 import Contact from './components/contact/contact';

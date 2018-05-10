@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Butter from 'buttercms'
+import './blogShow.css'
 // import { Helmet } from "react-helmet";
 
 const butter = Butter('c2ecaf9f0a04614d2fd327f91151ef19ebbb61d6');
@@ -30,7 +31,7 @@ class BlogShow extends Component {
       const post = this.state.post;
 
       return (
-        <div>
+        <div className="blogContent">
             <title>{post.seo_title}</title>
             <meta name="description" content={post.meta_description} />
             <meta name="og:image" content={post.featured_image} />
