@@ -48,7 +48,7 @@ render() {
         {this.state.resp.data.map((post) => {
           return (
             <div key={post.slug}>
-              <Link to={`/post/${post.slug}`}>{post.title}</Link>
+              <Link to={`/blog/${post.slug}`}>{post.title}</Link>
             </div>
           )
         })}

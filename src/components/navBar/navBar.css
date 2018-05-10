@@ -1,0 +1,11 @@
+.navBar {
+  padding-right: 20px;
+  text-align: right;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: black;
+  padding-right: 30px; 
+
+}

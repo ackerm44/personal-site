@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Portfolio from './containers/portfolio';
+import Portfolio from './containers/portfolio/portfolio';
 import BlogIndex from './containers/blogIndex';
 import BlogShow from './components/blogShow'
 import Resume from './containers/resume';
-import About from './containers/about';
-import Contact from './containers/contact';
+import About from './components/about/about';
+import Contact from './components/contact/contact';
+import NavBar from './components/navBar/navBar';
+import Header from './components/header'
 
 import './App.css';
 
@@ -14,6 +16,8 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <NavBar />
+          <Header />
           <Route exact path="/" component={Portfolio} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/about" component={About} />
