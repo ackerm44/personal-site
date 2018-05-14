@@ -2,13 +2,25 @@
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-column-gap: 20px;
-  margin: 40px;
+  margin: 40px 100px;
   padding-top: 40px;
+  text-align: left;
+}
+
+.blogPreviewContent a {
+  align-self: center;
+  justify-self: center; 
 }
 
 .blogPreviewContent img {
   width: 75%;
   height: auto;
   overflow: hidden;
-  justify-content: center;
+
+}
+
+@media screen and (max-width: 730px) {
+  .blogPreviewContent {
+    grid-template-columns: 1fr;
+  }
 }
