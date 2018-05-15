@@ -1,0 +1,18 @@
+
+.parallax-header {
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-header h1 {
+  padding-top: 150px;
+  padding-right: 40px;
+  text-align: right;
+  color: rgb(228,228,288);
+  font-family: "Homemade Apple", "cursive";
+  font-size: 400%;
+  line-height: 1.2;
+}

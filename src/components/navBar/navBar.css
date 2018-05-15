@@ -5,9 +5,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: rgb(239, 239, 239);
   text-align: right;
-  border-top: 1px solid black;
 }
 
 .navBar a {
@@ -17,5 +16,5 @@
 }
 
 .navBar a:hover {
-  color: blue; 
+  color: blue;
 }

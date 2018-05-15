@@ -7,7 +7,7 @@ import Resume from './containers/resume';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import NavBar from './components/navBar/navBar';
-import Header from './components/header'
+import Header from './components/header/header'
 import Footer from './components/footer'
 
 import './App.css';

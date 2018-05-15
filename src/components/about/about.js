@@ -15,8 +15,8 @@ class About extends Component {
 
             <p>I am Flatiron School graduate for Full Stack Web Development and a
             Michigan State University graduate for Economics. </p>
-
           </div>
+          <h3>----------------------</h3>
           <h2>I specialize in:</h2>
           <p>RUBY • RAILS • JAVASCRIPT • JQUERY • REACT • REDUX • SQL • CSS • HTML</p>
           <h2>My skill set includes:</h2>
