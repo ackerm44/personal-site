@@ -1,4 +1,5 @@
 .blogContent {
+  margin-top: 35px;
   margin-left: 35px;
   margin-right: 35px;
   text-align: left;
@@ -6,5 +7,9 @@
 
 .blogContent pre {
   background-color: rgb(244, 244, 244);
-  padding: 20px; 
+  padding: 20px;
+}
+
+.blogContent h1, h5 {
+  text-align: center;
 }

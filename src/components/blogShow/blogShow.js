@@ -39,6 +39,8 @@ class BlogShow extends Component {
 
           <h1>{post.title}</h1>
           <h5>by {post.author.first_name} on <Moment format="MMMM D, YYYY">{post.published}</Moment></h5>
+          <h5> --- {post.categories.map(category => <h5 style={{display: "inline", textAlign: "center"}}>{category.name}  </h5>)} --- </h5>
+          <br />
           <div dangerouslySetInnerHTML={{__html: post.body}} />
         </div>
       );

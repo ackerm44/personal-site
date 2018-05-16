@@ -6,7 +6,7 @@ import './portfolio.css'
 class Portfolio extends Component {
   render() {
     return(
-      <div>
+      <div className="over">
         <h1>Projects</h1>
         <div className="projects">
           <div className="project">
